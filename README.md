@@ -1,2 +1,2 @@
 # FEature-engineering-outlier-removal-using-z-score
-I used the Z-score method as a technique to identify and remove outliers from the dataset.
+I used the Z-score method to identify outliers by calculating the Z-score for each data point based on its deviation from the mean and standard deviation of the feature. Data points with Z-scores exceeding a specified threshold (typically 3 or -3) were considered outliers and subsequently removed from the dataset. This approach is effective for datasets where the distribution of data approximates a normal distribution, as it helps maintain data integrity and improves the robustness of statistical analyses and machine learning models by mitigating the influence of extreme values.
